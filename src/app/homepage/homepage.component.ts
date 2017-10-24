@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class HomepageComponent implements OnInit {
   title = ' the Movies';
   movieList: Array<Movie>;
   constructor() {}
@@ -36,30 +36,6 @@ export class AppComponent implements OnInit {
       thumbnail: '../assets/images/wonderwoman.jpg',
       trailer: 'https://youtu.be/VSB4wGIdDwo',
       },
-      // {
-      //   title: 'Spider-man Homecoming' ,
-      //   released_on: '2017',
-      //   thumbnail:'' ,
-      //   trailer: ,
-      // },
-      // {
-      //   title: ,
-      //   released_on: ,
-      //   thumbnail: ,
-      //   trailer: ,
-      // },
-      // {
-      //   title: ,
-      //   released_on: ,
-      //   thumbnail: ,
-      //   trailer: ,
-      // },
-      // {
-      //   title: ,
-      //   released_on: ,
-      //   thumbnail: ,
-      //   trailer: ,
-      // }
     ]
   }
 }
