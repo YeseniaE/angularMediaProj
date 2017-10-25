@@ -1,15 +1,2 @@
 <navbar></navbar>
 <router-outlet></router-outlet>
-
-<div style="text-align:center" class="title">
-  <h1> Welcome to {{ title }}! </h1>
-</div>
-
-<div class="container-fluid main main-bg img-responsive" >
-  <div class="row boxes-flex">
-    <div class="col-sm-3 box" *ngFor="let movie of movieList">
-      <p><a target="_blank" href="{{ movie.trailer }}"><img class="img-responsive" src="{{ movie.thumbnail }}" alt="Image not showing"></a></p>
-      <p> Movie Title: {{ movie.title }} </p>
-    </div>
-  </div>
-</div>
