@@ -1,0 +1,9 @@
+<div class="container-fluid main main-bg img-responsive" >
+  <div class="row boxes-flex">
+    <div class="col-sm-3 box" *ngFor="let movie of movies">
+      <p><a target="_blank" href="{{ movie.trailer }}"><img class="img-responsive" src="{{ movie.thumbnail }}" alt="Image not showing"></a></p>
+      <p> Movie Title: {{ movie.title }} </p>
+      <a routerLink="/movie/{{ movie.id }}">{{ movie.title }}</a>
+    </div>
+  </div>
+</div>
