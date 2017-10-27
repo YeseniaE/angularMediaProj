@@ -13,7 +13,7 @@ export const Movies: Array<Movie> = [
   title: 'Transformers',
   released_on: '2017',
   thumbnail: '../assets/images/transformers.jpg',
-  trailer: 'https://youtu.be/6Vtf0MszgP8',
+  trailer: 'https://www.youtube.com/embed/6Vtf0MszgP8',
   },
   {
   id: 2,

@@ -16,9 +16,17 @@ export class MovieService {
     console.log('my movie List', this.movieList);
     return this.movieList;
   }
-  public getMovieById(id: number) {
+  // public getMovieById(id: number) {
+  //   this.movieList.forEach(movie => {
+  //     if (movie.id === id) { return movie };
+  //   })
+  // }
+  // this.movie = this.movieService.getMovieById(2);
+
+  public getMovieById(id: number): Movie {
     this.movieList.forEach(movie => {
-      if (movie.id === id) { return movie };
-    })
+    if (movie.id == id) { this.movie = movie; }
+  });
+  return this.movie;
   }
 }

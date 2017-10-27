@@ -25,11 +25,15 @@
 }
 
 .box>a:hover {
-    border: 5px solid rgba(250, 0, 0, 1);
+    border: 2px solid rgba(250, 0, 0, 1);
 }
 
 .boxes-flex {
   display: flex;
   justify-content: space-between;
   height: 700px;
+}
+
+a {
+  color: inherit;
 }
