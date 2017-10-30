@@ -6,7 +6,7 @@ export const Movies: Array<Movie> = [
   title: 'Blade Runner 2049 ',
   released_on: '2017',
   thumbnail: '../assets/images/blade.jpg',
-  trailer: 'https://youtu.be/nZ5tqzw841s',
+  trailer: 'https://www.youtube.com/embed/dZOaI_Fn5o4',
   },
   {
   id: 1,
@@ -20,13 +20,13 @@ export const Movies: Array<Movie> = [
   title: 'Boss Baby',
   released_on: '2017',
   thumbnail: '../assets/images/baby.jpg',
-  trailer: 'https://youtu.be/Ud8j5GaqH3c',
+  trailer: 'https://www.youtube.com/embed/k397HRbTtWI',
   },
   {
   id: 3,
   title: 'Wonder Woman',
   released_on: '2017',
   thumbnail: '../assets/images/wonderwoman.jpg',
-  trailer: 'https://youtu.be/VSB4wGIdDwo',
+  trailer: 'https://www.youtube.com/embed/INLzqh7rZ-U',
   },
 ]
